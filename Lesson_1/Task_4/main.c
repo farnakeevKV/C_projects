@@ -15,8 +15,8 @@ int main(void)
        // scanf("%d", &b); // считываем целое значение в переменную b
 
         res = a + b + c;
-        res_1 = a * b * c;
+     //   res_1 = a * b * c;
         printf("%d+%d+%d=%d\n", a, b, c, res);
-        printf("%d*%d*%d=%d\n", a, b, c, res_1);
+    //    printf("%d * %d * %d = %d\n", a, b, c, res_1);
         return 0;
 }

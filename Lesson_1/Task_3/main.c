@@ -1,33 +1,23 @@
-#include <stdio.h>
-#include <locale.h>
+#include<stdio.h>
 
-int input_int( char *prompt)
-{
-    int value;
+// Task_2
+int main(void){
 
-    printf("%s", prompt);
-    while (scanf("%d", &value) != 1)
-    {
-        printf("Ошибка ввода. Введите целое число: ");
-        while (getchar() != '\n')
-        {
-        }
-    }
+printf(" Let's \n"); 
+printf("   go \n"); 
+printf("     to walk \n"); 
 
-    return value;
-}
 
-int main(int argc, char *argv)
-{
-    int number1;
-    char *locale = setlocale(LC_ALL, "");
+/* Task_3
+int main(void){
 
-    (void)argc;
-    (void)argv;
-    (void)locale;
+printf("    * \n"); 
+printf("   *** \n"); 
+printf("  ***** \n"); 
+printf(" ******* \n"); 
+printf("  HHOHH \n"); 
+printf("  ZZZZZ \n"); 
+*/
+return 0;
+} 
 
-    number1 = input_int("Введите число 1: ");
-    printf("Вы ввели число: %d\n", number1);
-
-    return 0;
-}
