@@ -1,8 +1,15 @@
 #include<stdio.h>
 int main(void){
 
-printf("Hello \n"); 
-printf("Hello \n"); 
-printf("Hello \n"); 
-printf("Hello \n"); 
-}
+printf("    * \n"); 
+printf("   *** \n"); 
+printf("  ***** \n"); 
+printf(" ******* \n"); 
+printf("  HHOHH \n"); 
+printf("  ZZZZZ \n"); 
+
+
+} 
+
+
+ 

@@ -1,8 +1,7 @@
 #include<stdio.h>
-int main(void){
+int main(int argc, char *argv){
 
-printf("Hello \n"); 
-printf("Hello \n"); 
-printf("Hello \n"); 
+printf("Hello world! \n"); 
+
 
 }
