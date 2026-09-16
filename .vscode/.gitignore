@@ -1,0 +1,29 @@
+
+# Компилируемые файлы и артефакты
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.a
+
+# Папки сборки (если будешь использовать CMake/make)
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+!.vscode/launch.json
+
+# Локальные настройки, которые не должны быть у других
+.DS_Store
+Thumbs.db
+
+# Временные файлы редактора
+*~
+*.swp
+*.swo
