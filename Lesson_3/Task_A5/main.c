@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-void stop(void){
-    getchar() ;
-    getchar() ;
-   }
+
 int main(void)
 {       
         setlocale(LC_ALL, "ru_RU.UTF-8");
@@ -20,6 +17,6 @@ int main(void)
         res = ((a + b + c)/3.0);
         printf("%.2f\n", res);
     
- stop();
+
         return 0;
 }
