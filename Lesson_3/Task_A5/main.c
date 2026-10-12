@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <locale.h>
+//#include <locale.h>
 
 
 int main(void)
 {       
-        setlocale(LC_ALL, "ru_RU.UTF-8");
+        //setlocale(LC_ALL, "ru_RU.UTF-8");
      
         int a = 0, b = 0, c = 0;
         float res = 0.0;
@@ -18,5 +18,5 @@ int main(void)
         printf("%.2f\n", res);
     
 
-        return 0;
+        return 0; 
 }
