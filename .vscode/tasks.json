@@ -6,6 +6,7 @@
       "type": "shell",
       "command": "gcc",
       "args": [
+       // "my_fun.c",
         "-g",
         "-O0",
         "-Wall",
